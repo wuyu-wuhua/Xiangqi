@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Xiangqi (Chinese Chess) online for free. Learn strategies, compete with players worldwide, and master the ancient game of skill and strategy.">
+    <meta name="keywords" content="Xiangqi, Chinese Chess, online chess, strategic board game, traditional Chinese game">
+    <title>Xiangqi - Play Traditional Chinese Chess Online | bjssjlbj.com</title>
+    <link rel="canonical" href="https://bjssjlbj.com/">
+    <style>
+        :root {
+            /* Apple-inspired color palette */
+            --apple-blue: #007aff;
+            --apple-light-blue: #5ac8fa;
+            --apple-gray: #8e8e93;
+            --apple-light-gray: #f2f2f7;
+            --apple-dark-gray: #1c1c1e;
+            --apple-red: #ff3b30;
+            --apple-green: #34c759;
+            --apple-light-text: #f2f2f7;
+            --apple-dark-text: #1c1c1e;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+                Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: var(--apple-light-gray);
+            color: var(--apple-dark-text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background-color: var(--apple-blue);
+            color: var(--apple-light-text);
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            font-weight: 300;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .game-container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            padding: 2rem;
+            overflow: hidden;
+        }
+
+        .game-iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        h2 {
+            color: var(--apple-blue);
+            margin: 2rem 0 1rem;
+            font-weight: 600;
+            font-size: 1.5rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .feature {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature h3 {
+            color: var(--apple-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background-color: var(--apple-dark-gray);
+            color: var(--apple-light-text);
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 3rem;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--apple-light-blue);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--apple-light-text);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--apple-blue);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 500;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: var(--apple-light-blue);
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .game-iframe {
+                height: 400px;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            .game-iframe {
+                height: 300px;
+            }
+
+            .container {
+                padding: 0 15px;
+            }
+
+            .game-container {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Xiangqi - Traditional Chinese Chess</h1>
+            <p class="tagline">Experience the ancient game of strategy that has challenged minds for centuries, now available online for free.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="game-container">
+            <iframe src="https://play.xiangqi.com" class="game-iframe" title="Play Xiangqi Online" allow="fullscreen"></iframe>
+            <a href="https://play.xiangqi.com" class="cta-button" target="_blank" rel="noopener">Open in New Window</a>
+        </section>
+
+        <section>
+            <h2>About Xiangqi</h2>
+            <p>Xiangqi, also known as Chinese Chess, is one of the most popular board games in the world with millions of players across Asia and growing popularity worldwide. Dating back over 2,000 years, this strategic game combines elements of chess, warfare tactics, and traditional Chinese philosophy.</p>
+            <p>Unlike Western chess, Xiangqi is played on the intersections of a 9×10 board, featuring unique pieces like the Cannon, Elephant, and Advisor, each with their distinct movement patterns and strategic value.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Learn the Basics</h3>
+                <p>New to Xiangqi? Our interactive tutorials and guides will help you understand the rules, piece movements, and basic strategies to get started on your journey.</p>
+            </div>
+            <div class="feature">
+                <h3>Play Online</h3>
+                <p>Challenge friends or players from around the world. Our online platform offers smooth gameplay, multiple difficulty levels, and a ranking system to track your progress.</p>
+            </div>
+            <div class="feature">
+                <h3>Master Advanced Strategies</h3>
+                <p>Explore advanced tactics, study game patterns from masters, and elevate your gameplay to compete at higher levels in this centuries-old game of skill.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Play</h2>
+            <p>Xiangqi is played between two opponents, traditionally Red (先手) and Black (后手). Each player commands an army of 16 pieces, including one General (King), two Advisors, two Elephants, two Horses, two Chariots, two Cannons, and five Soldiers.</p>
+            <p>The objective is to capture the opponent's General. This can be achieved by placing the General in check with no legal moves remaining (checkmate) or by capturing all the opponent's pieces except for the General.</p>
+        </section>
+
+        <section>
+            <h2>Game Features</h2>
+            <p>Our online Xiangqi platform offers a range of features to enhance your gaming experience:</p>
+            <ul style="list-style-position: inside; margin-left: 1rem; margin-bottom: 1rem;">
+                <li>Multiple difficulty levels for players of all skill levels</li>
+                <li>Save and analyze your games to improve your strategy</li>
+                <li>Chat with opponents during gameplay</li>
+                <li>Track your progress and statistics</li>
+                <li>Join tournaments and special events</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>History of Xiangqi</h2>
+            <p>Xiangqi has a rich history dating back to the Han Dynasty (206 BCE – 220 CE). The game evolved from earlier strategic board games and has been played continuously for centuries across China and East Asia.</p>
+            <p>Traditional Xiangqi boards are often etched onto stone tables in parks across China, where people of all ages gather to play and socialize. Today, the game maintains its cultural significance while finding new audiences around the world.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="#">Rules & Instructions</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+            <p>&copy; 2025 bjssjlbj.com - The Ultimate Xiangqi Experience</p>
+        </div>
+    </footer>
+</body>
+</html>
